@@ -1,0 +1,62 @@
+header {
+    background-color: #fefefe;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 999;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+.title{
+    font-size: 2.5em;
+    color: #3a6cf4;
+    display: flex;
+    justify-content:center;
+}
+.content{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.skills {
+  display: flex;
+  gap: 30px;              /* المسافة بين الأقسام */
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  transition: 0.3s ease;  /* حركة ناعمة */
+  cursor: pointer;
+}
+
+/* الظل عند تحريك الماوس */
+.card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px); /* يطلع لفوق سنة */
+}
